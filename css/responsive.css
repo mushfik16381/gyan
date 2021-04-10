@@ -1490,30 +1490,6 @@
         margin-top: 30px;
         margin-bottom: 80px;
     }
-    /* #course-part .slick-dots {
-        position: absolute;
-        bottom: -5%;
-        left: 50%;
-        transform: translateX(-50%);
-        padding: 0; 
-    }
-    #course-part .slick-dots li{
-        display: inline-block;
-    }
-    #course-part .slick-dots li button{
-        font-size: 0;
-        width: 12px;
-        height: 12px;
-        border: 1px solid #8a8988;
-        background: transparent;
-        
-        border-radius: 50%;
-        margin:0 5px;
-    }
-    #course-part .slick-dots .slick-active button{
-        background: #fbaa33;
-        border-color: #fbaa33;
-    } */
     #course-part .item .introduction .name h2{
         font-size: 14px;
     }
@@ -1547,6 +1523,9 @@
 
 
     /* ========== event-part start============ */
+    #event-part{
+        padding-bottom: 30px;
+    }
     #event-part .calender img{
         padding: 0 12px;
         margin-bottom: 30px;
@@ -1577,7 +1556,7 @@
         margin: 0 auto;   
     }
     #testimonial-part .test_slider{
-        margin-top: 64px;
+        margin-top: 20px;
     }
     #testimonial-part .test_slider::after{
         right: -25%;
@@ -1586,8 +1565,8 @@
         left: 45%;
     }
     #testimonial-part .details-slider{
-        padding: 30px 0;
-        margin-bottom: 50px;
+        padding: 0;
+        margin-bottom: 0;
     }
     #testimonial-part .details p{
         padding-left: 40px;
@@ -1624,6 +1603,9 @@
     #testimonial-part .details-slider .slick-dots .slick-active button{
         background: #fbaa33;
         border-color: #fbaa33;
+    }
+    #testimonial-part .accordion-item h2{
+        font-size: 17px;
     }
     #testimonial-part .prev{
         width: 30px;
