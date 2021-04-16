@@ -129,6 +129,7 @@
     /* ========== about-part start============ */
     #about-part{
         padding-bottom: 40px;
+        overflow-x: hidden;
     }
     #about-part .slick-dots li{
         margin: -5px 8px;
@@ -168,12 +169,30 @@
     #course-part .item{
         margin-top: 30px;
     }
+    #course-part .item .introduction{
+        padding-left: 0;
+    }
     #course-part .slick-dots {
         position: absolute;
         bottom: -5%;
         left: 50%;
         transform: translateX(-50%);
         padding: 0; 
+    }
+    #course-part .item .introduction .name p{
+        font-size: 12px;
+    }
+    #course-part .item .introduction .name h2{
+        font-size: 11px;
+    }
+    #course-part .item .introduction .rating ul li{
+        font-size: 10px;
+    }
+    #course-part .item .details h3{
+        font-size: 19px;
+    }
+    #course-part .item .introduction .rating p{
+        font-size: 12px;
     }
     #course-part .slick-dots li{
         display: inline-block;
@@ -201,16 +220,30 @@
         margin-bottom: 30px;
     }
     #event-part .item{
-        display: inline;
-        margin: 0;
+        display: inline-block;
+        margin: 20px 10px;
         padding: 0;
+        padding-bottom: 15px;
     }
     #event-part .item .img{
         padding: 25px;
         
     }
-    #event-part .item .img img{
-        margin-top: 30px;
+    #event-part .item .text h2{
+        padding: 0;
+        font-size: 20px;
+    }
+    #event-part .item .text p{
+        width: 100%;
+        padding: 10px 0;
+        margin: 0;
+        font-size: 13px;
+    }
+    #event-part .item .text .room .icon {
+        margin-left: -13px;
+    }
+    #event-part .item .text .room p i {
+        font-size: 11px;
     }
     #event-part .item .img .overlay {
         width: 19%;
@@ -230,6 +263,9 @@
 
 
     /* ========== testimonial-part start============ */
+    #testimonial-part{
+        overflow-x: hidden;
+    }
     #testimonial-part .title p{
         margin-bottom: 40px;
     }
@@ -248,14 +284,14 @@
         margin-bottom: 50px;
     }
     #testimonial-part .details p{
-        padding-left: 40px;
+        padding-left: 28px;
     }
     #testimonial-part .details h2{
-        padding-left: 40px;
+        padding-left: 28px;
         font-size: 17px;
     }
     #testimonial-part .details ul{
-        padding-left: 40px;
+        padding-left: 28px;
     }
     
 
@@ -434,6 +470,10 @@
     #contact-part .right h3{
         padding-bottom: 5px;
     }
+    #contact-part .right a:hover {
+        background: none;
+        color: #fbaa33;
+    }
     /* ========== #contact-part end============ */
 
 
@@ -577,6 +617,7 @@
     /* ========== about-part start============ */
     #about-part{
         padding-bottom: 40px;
+        overflow-x: hidden;
     }
     #about-part .slick-dots li{
         margin: -5px 8px;
@@ -626,6 +667,40 @@
     #course-part .slick-dots li{
         display: inline-block;
     }
+    #course-part .item .introduction .name{
+        padding-left: 20px;
+    }
+    #course-part .item .introduction .name p{
+        font-size: 18px;
+        padding-top: 2px;
+    }
+    #course-part .item .introduction .name h2{
+        font-size: 19px;
+    }
+    #course-part .item .introduction .rating ul li{
+        font-size: 16px;
+    }
+    #course-part .item .introduction .rating p{
+        font-size: 16px;
+    }
+    #course-part .item .details h3{
+        font-size: 28px;
+        padding-bottom: 19px;
+        padding-top: 29px;
+    }
+    #course-part .item .details p{
+        font-size: 18px;
+    }
+    #course-part .item .duration p{
+        font-size: 18px;
+    }
+    #course-part .item .duration h5{
+        font-size: 18px;
+    }
+    #course-part .item .button a {
+        font-size: 21px;
+        padding: 14px 20px;
+    }
     #course-part .slick-dots li button{
         font-size: 0;
         width: 12px;
@@ -672,18 +747,14 @@
         bottom: 26px;
         right: 25px;
     } 
-    #event-part .item .text {
-        /* padding: 10px 25px;
-        padding-left: 25px;
-        box-sizing: border-box;
-        padding-left: 34px; */
-    }   
-
 
     /* ========== event-part end============ */
 
 
     /* ========== testimonial-part start============ */
+    #testimonial-part{
+        overflow-x: hidden;
+    }
     #testimonial-part .title p{
         margin-bottom: 40px;
     }
@@ -1002,6 +1073,7 @@
     /* ========== about-part start============ */
     #about-part{
         padding-bottom: 40px;
+        overflow-x: hidden;
     }
     #about-part .slick-dots li{
         margin: -5px 8px;
@@ -1046,30 +1118,6 @@
         margin-top: 30px;
         margin-bottom: 80px;
     }
-    /* #course-part .slick-dots {
-        position: absolute;
-        bottom: -5%;
-        left: 50%;
-        transform: translateX(-50%);
-        padding: 0; 
-    }
-    #course-part .slick-dots li{
-        display: inline-block;
-    }
-    #course-part .slick-dots li button{
-        font-size: 0;
-        width: 12px;
-        height: 12px;
-        border: 1px solid #8a8988;
-        background: transparent;
-        
-        border-radius: 50%;
-        margin:0 5px;
-    }
-    #course-part .slick-dots .slick-active button{
-        background: #fbaa33;
-        border-color: #fbaa33;
-    } */
     #course-part .item .introduction .name h2{
         font-size: 14px;
     }
@@ -1087,6 +1135,8 @@
     #course-part .item:hover .img .overlay{
         opacity: 1;
     }
+    
+    
     #course-part .item:hover .button a{
         transition: .6s;
     }
@@ -1129,12 +1179,17 @@
         box-sizing: border-box;
         padding-left: 34px;
     }   
-
+    #event-part .item .text h2{
+        padding: 0;
+    }
 
     /* ========== event-part end============ */
 
 
     /* ========== testimonial-part start============ */
+    #testimonial-part{
+        overflow-x: hidden;
+    }
     #testimonial-part .title p{
         margin-bottom: 40px;
     }
@@ -1490,8 +1545,23 @@
         margin-top: 30px;
         margin-bottom: 80px;
     }
+    #course-part .item .introduction .name p{
+        font-size: 12px;
+    }
+    #course-part .item .introduction .rating ul{
+        margin-left: 0;
+    }
+    #course-part .item .introduction .rating ul li{
+        font-size: 10px;
+    }
+    #course-part .item .introduction .rating p{
+        font-size: 11px;
+    }
+    #course-part .item .introduction{
+        padding-left: 0;
+    }
     #course-part .item .introduction .name h2{
-        font-size: 14px;
+        font-size: 12px;
     }
     #course-part .prev{
         top: 100%;
@@ -1535,7 +1605,11 @@
         margin-bottom: 12px;
     }   
     #event-part .item .text h2{
-    padding-top: 12px;
+
+        font-size: 20px;
+    }
+    #event-part .item .text p{
+        width: 97%;
     }
     #event-part .item-part{
         margin-top: 25px;
